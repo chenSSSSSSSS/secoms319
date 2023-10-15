@@ -12,9 +12,9 @@
    */
   
   .site-header {
-    background-color: rgba(0, 0, 0, .85);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
+    background-color: green;
+    /* -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px); */
   }
   .site-header a {
     color: #8e8e8e;
@@ -35,7 +35,7 @@
     bottom: -30%;
     width: 300px;
     height: 540px;
-    background-color: #333;
+    background-color:green;
     border-radius: 21px;
     transform: rotate(30deg);
   }
@@ -47,7 +47,7 @@
     bottom: 10%;
     left: 10px;
     content: "";
-    background-color: rgba(255, 255, 255, .1);
+    background-color: green;
     border-radius: 5px;
   }
   

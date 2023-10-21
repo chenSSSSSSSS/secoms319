@@ -3,23 +3,28 @@
         {
             "imageId": "1234",
             "decription":"Data Structure",
-            "url":"https://user-images.githubusercontent.com/36534847/110256307-e6347c80-7f76-11eb-9635-df55b02d540a.png"
+            "image":"./images/dspic.png"
             
         },
         {
             "imageId": "A124",
             "decription": "this is sorting algo",
-            "url": "https://camo.githubusercontent.com/48b2692bca2383e7a6b7e33d9a08457d8c5961ffb72bc9571aa5a5f5579a636b/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f313630302f312a4a65385777524841726b42544c7675684d6f645a44412e706e67"
+            "image": "./images/algorithms.png"
         },
         {
             "imageId": "76788",
             "decription":"This is a big O runtime analysis",
-            "url": "https://ilyasergey.net/YSC2229/_images/bigo.png"
+            "image": "./images/oopfundamentals.png"
         },
         {
           "imageId": "BB124",
           "decription":"interview question",
-          "url": "https://www.pngmart.com/files/21/Job-Interview-Vector-Transparent-PNG.png"
-      }
+          "image": "./images/behavioral.png"
+        },
+        {
+            "imageId": "BB125",
+            "decription":"linked lists description",
+            "image": "./images/linkedlist.png"
+        }
     ]
   }

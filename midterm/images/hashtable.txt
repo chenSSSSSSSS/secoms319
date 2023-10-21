@@ -1,0 +1,1 @@
+Hashtable is a data structure that implements dictionaries

@@ -1,0 +1,1 @@
+Binary Search is a common algorithm used on sorted arrays

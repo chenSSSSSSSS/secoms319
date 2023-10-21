@@ -1,88 +1,68 @@
 let quizDiv = document.getElementById('quizdiv');
 let submitButton = document.getElementById('submit');
-let insertionDiv = document.getElementById('insertiondiv');
-let quickDiv = document.getElementById('quickdiv');
-let mergeDiv = document.getElementById('mergediv');
-let binaryDiv = document.getElementById('binarydiv');
-let mergeBox = document.getElementById('mergebox');
-let jnameCard = document.getElementById('jnamecard');
+// let insertionDiv = document.getElementById('insertiondiv');
+// let quickDiv = document.getElementById('quickdiv');
+// let mergeDiv = document.getElementById('mergediv');
+// let binaryDiv = document.getElementById('binarydiv');
+// let mergeBox = document.getElementById('mergebox');
+// let jnameCard = document.getElementById('jnamecard');
 
-insertionDiv.addEventListener(
-  "mouseover",
-  (event) => {
-    event.target.style.color = "green";
-    // event.target.style.border = "solid";
-    // setTimeout(() => {
-    //   event.target.style.color = "";
-    //   event.target.style.fontWeight = "700";
-    // }, 400);
-  },
-  false,
-);
+// insertionDiv.addEventListener(
+//   "mouseover",
+//   (event) => {
+//     event.target.style.color = "green";
+//   },
+//   false,
+// );
 
-quickDiv.addEventListener( "mouseover", (event) => {
-    event.target.style.color = "green";
-    // event.target.style.border = "solid";
-    // setTimeout(() => {
-    //   event.target.style.color = "";
-    //   event.target.style.fontWeight = "700";
-    // }, 400);
-  },
-  false,
-);
+// quickDiv.addEventListener( "mouseover", (event) => {
+//     event.target.style.color = "green";
+//   },
+//   false,
+// );
 
-mergeDiv.addEventListener("mouseover", (event) => {
-  event.target.style.color = "green";
-  // event.target.style.border = "solid";
-//   setTimeout(() => {
-//     event.target.style.color = "";
-//     event.target.style.fontWeight = "700";
-//   }, 400);
+// mergeDiv.addEventListener("mouseover", (event) => {
+//   event.target.style.color = "green";
+// }, 
+// false,
+// );
 
-}, 
-false,
-);
-
-binaryDiv.addEventListener("mouseover", (event) => {
-  event.target.style.color = "green";
-  // event.target.style.border = "solid";
-//   setTimeout(() => {
-//     event.target.style.color = "";
-//     event.target.style.fontWeight = "700";
-//   }, 400);
-
-}, 
-false,
-);
+// binaryDiv.addEventListener("mouseover", (event) => {
+//   event.target.style.color = "green";
+// }, 
+// false,
+// );
 
 // array of question objects
 let questions = [
   {
-    question: "1. What is the time complexity of a binary search algorithm?",
+    //https://www.interviewbit.com/oops-interview-questions/
+    question: "1. An entity which inherits from another class",
     answers: {
-      a: "O(1)",
-      b: "O(log n)",
-      c: "O(n log n)"
+      a: "constructor",
+      b: "subclass",
+      c: "interface"
     },
     solution: "b"
   },
   {
-    question: "2. Big-O represents the _ bound of an algorithm's time or space complexity",
+    question: "2. Static polymorphism is commonly known as",
     answers: {
-      a: "upper",
-      b: "lower",
-      c: "average"
-    },
-    solution: "a"
-  },
-  {
-    question: "3. What is the worst case complexity for searching in a Hashmap?",
-    answers: {
-      a: "O(n log n)",
-      b: "O(n^2)",
-      c: "O(n)"
+      a: "Dynamic Polymorphism",
+      b: "Runtime polymorphism",
+      c: "Compile time polymorphism"
     },
     solution: "c"
+  },
+  {
+    //https://www.geeksforgeeks.org/oops-interview-questions/
+    question: "3. Private, Public, and Protected are examples of ",
+    answers: {
+      a: "Access Modifiers",
+      b: "Overriding",
+      c: "Overloading"
+    },
+    solution: "a"
   }
   ];
   
@@ -114,8 +94,6 @@ questions.forEach (
     
 //removes commas from string
 quizDiv.innerHTML = quizArr.join('');
-
-
 
   // Toggle Avengers button :
   var toggleButton3 = document.getElementById('toggleCardButton3');

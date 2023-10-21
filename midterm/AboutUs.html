@@ -14,62 +14,53 @@
 
 <body>
     <!--  this is the Navigation--> 
-    <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
-        <div class="container">
-            <a class="navbar-brand d-md-none" href="#">
-                <svg class="bi" width="24" height="24">
-                    <use xlink:href="#aperture" />
-                </svg>
-                Aperture
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
-                aria-controls="#offcanvas" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas" aria-labelledby="#offcanvasLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="#offcanvasLabel">Aperture</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav flex-grow-1 justify-content-between">
-                        <li class="nav-item"><a class="nav-link" href="#">
-                            birdEye
-                                <svg class="bi" width="24" height="24">
-                                    <use xlink:href="#aperture" />
-                                </svg>
-                            </a></li>
-                        <li class="nav-item"><a class="nav-link" href="./index.html">Main</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./AboutUs.html">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">
-                                <svg class="bi" width="24" height="24">
-                                    <use xlink:href="#cart" />
-                                </svg>
-                            </a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
-
+    <nav class="navbar navbar-expand-sm bg-dark sticky-top border-bottom" data-bs-theme="dark">
+      <div class="container" >
+          <div class="offcanvas">
+              <div>
+                  <ul class="navbar-nav flex-grow-1 justify-content-between">
+                      <li class="nav-item"><a class="nav-link" href="./index.html">Main</a></li>
+                      <li class="nav-item"><pre>Software Interview Prep</pre></li>
+                      <li class="nav-item"><a class="nav-link" href="./AboutUs.html">About Us</a></li>                     
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </nav>
+  <main class="container" > 
+    <!-- <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary"> --> 
+      <!-- <div class="col-lg-6 px-0 mx-auto"> -->  
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">  
+        <div class="col"> 
+            <img src="./images/about_us.png" alt="" > 
+        </div>  
+        <div class="col"> 
+            <h2 class="display-4 fst-italic" style="text-align: center; color:green; padding-top: 6rem;" >COM S 319: Construction of User Interfaces</h2>  
+            <h2 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;">Professor: Dr. Aldaco</h2> 
+            <h4 class="lead my-3" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;">Date: Oct 17, 2023</h4>  
+        </div>  
+      </div>  
+    </main> 
+   
     <!-- Showing the course info -->
-    <section style="padding: 2rem;">
+    <!-- <section style="padding: 2rem;">
         <div style="padding-top: 5rem; text-align: center;">
           <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(51, 124, 67);">Com S 319: Construction of User Interfaces</h1>
           <h2 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Professor: Dr. Aldaco</h2>
-          <h4 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Date: Oct,15, 2023</h4>
+          <h4 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Date: Oct 17, 2023</h4>
         </div>
-      </section>
+      </section> -->
 
     <!-- Showing the student info -->
-    <div class="album py-5 bg-body-tertiary">
+    <!-- <div class="album py-5 bg-body-tertiary"> -->
         <div class="container">
-    
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
             <div class="col">
-              <div class="card shadow-sm" style="background-color: rgba(57, 161, 193, 0.799);">
+              <div class="card shadow-sm" style="background-color:white;">
                 <div class="card-body" style="padding: 2rem 8rem;">
+                  <div style="text-align: center; ">
+                    <img src="./images/IMG_8317.jpg" alt="" width="200" height="200" border-radius="30px;">
+                  </div>
                   <p class="card-text">
                     <h5 style="text-align: center;">Chen Sang</h5>
                     <p style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">email: ssschen@iastate.edu</p>
@@ -80,8 +71,11 @@
               </div>
             </div>
             <div class="col">
-              <div class="card shadow-sm" style="background-color: rgba(7, 163, 43, 0.677);">
+              <div class="card shadow-sm" style="background-color:white;" id="jnamecard">
                 <div class="card-body" style="padding: 2rem 8rem;"> 
+                  <div style="text-align: center; ">
+                    <img src="./images/IMG_4463.jpg" alt="" width="200" height="200" border-radius="30px;">
+                  </div>
                   <p class="card-text">           
                      <h5 style="text-align: center; color:rgba(0, 0, 0, 0.758);">Jaqueline Lima Cerqueira</h5>
                      <p style="text-align: center; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:rgba(0, 0, 0, 0.758);">email: jclima@iastate.edu</p>
@@ -93,18 +87,15 @@
             </div>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
 
-    <!-- Footer -->
-    <footer class="text-body-secondary py-5">
+      <script src="sorting.js"></script>
+
+    <footer class="text-body-secondary py-5 text-center">
         <div class="container">
-          <!-- <p class="float-end mb-1">
-            <a href="#">Back to top</a>
-          </p> -->
           <p class="mb-1">By &copy; Chen Sang and Jaqueline Lima Cerqueira for Com S 319, Fall 2023.</p>
         </div>
       </footer>
-      <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

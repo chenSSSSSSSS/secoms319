@@ -1,0 +1,107 @@
+{
+    "images": [
+        {
+            "imageId": "1234",
+            "decription":"linkedlist",
+            "text":"'A linear data structure that includes a series of connected nodes.*' -programiz.com",
+            "image":"./images/linkedlist.png"
+            
+        },
+        {
+            "imageId": "A124",
+            "decription": "HashTable",
+            "text":"A data structure that implements a dictionary (abstract data type that maps keys to values). 1",
+            "image": "./images/hashtable.png"
+        },
+        {
+            "imageId": "76788",
+            "decription":"Tree",
+            "text":"An abstract data type that represents a hierarchical tree structure with a set of connected nodes. 2",
+            "image": "./images/tree.png"
+        },
+        {
+          "imageId": "BB124",
+          "decription":"graph",
+          "text":"A graph is a non-linear kind of data structure made up of vertices and edges. -simplilearn.com",
+          "image": "./images/graph.png"
+        }    
+    ],
+
+    "images2":[
+        {
+            "imageId": "1",
+            "decription":"insertion",
+            "text":"Considered inefficient on large lists compared to other sorting algos, insertion sort uses comparisons to sort arrays. <br> -datatrained.com",
+            "image":"./images/insertion.png"
+            
+        },
+        {
+            "imageId": "2",
+            "decription": "quicksort",
+            "text":"With the use of a selected pivot, quicksort partitions an array around the chosen pivot.",
+            "image": "./images/quicksort.png"
+        },
+        {
+            "imageId": "3",
+            "decription":"merge",
+            "text":"A recursive algorithm, mergesort uses a divide-and-conquer method to sort arrays.",
+            "image": "./images/merge.png"
+        },
+        {
+          "imageId": "4",
+          "decription":"binarySearch",
+          "text":"This search algorithm requires an already sorted array to operate on.",
+          "image": "./images/binarySearch.png"
+        }    
+    ],
+    "images3":[
+        {
+            "imageId": "11",
+            "decription":"Abstraction",
+            "text":"'A concept that allows us to model complex systems in a simplified and organized manner.' -scaler.com",
+            "image":"./images/abstraction.png"
+            
+        },
+        {
+            "imageId": "22",
+            "decription": "Encapsulation",
+            "text":"'the practice of bundling related data into a structured unit, along with the methods used to work with that data.' <br>-techtarget.com",
+            "image": "./images/encapsulation.png"
+        },
+        {
+            "imageId": "33",
+            "decription":"Polymorphism",
+            "text":"'The ability of a variable, function, or object to take on multiple forms.' -educative.io",
+            "image": "./images/polymorph.png"
+        },
+        {
+          "imageId": "44",
+          "decription":"Inheritance",
+          "text":"'a mechanism that allows a class to inherit properties and behaviors from another class.'-analyticsvidhya.com",
+          "image": "./images/inheritance.png"
+        }    
+    ],
+    "question":[
+        { 
+            "id":"1",
+            "txt1":"<li>Describe a situation where you felt you had not communicated well. How did you correct the situation?</li>",
+            "txt2":"<li>Tell me about a specific instance when you and your current/previous supervisor disagreed but you still found a way to get your point across.</li>",
+            "txt3":"<li>What kinds of communication situations cause you difficulty? Give an example and explain why.</li>"
+        },
+        { 
+            "id":"2",
+            "txt1":"<li>Give some instances in which you anticipated problems and were able to influence a new direction. What was the end result?</li>",
+            "txt2":"<li>Can you provide a specific example of when you found it necessary to devote extra time and energy to the job?</li>",
+            "txt3":"<li>What sorts of projects did you generate that required you to go beyond your job description? How did you manage the extra work?</li>"
+        },
+        { 
+            "id":"3",
+            "txt1":"<li>Please provide an example of a situation where you have experienced difficulty getting others to accept your ideas. What was your approach? Did it work?</li>",
+            "txt2":"<li>Give an example of a time in which you felt you were able to build motivation in your co-workers and/or subordinates at work.</li>",
+            "txt3":"<li>Describe a situation in which you were able to successfully influence someone to see things your way. What was it that made your efforts successful?</li>"
+        }
+
+    ]
+   
+   
+  }

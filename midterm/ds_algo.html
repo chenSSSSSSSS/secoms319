@@ -7,6 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!-- <script src="ds_algo.js"></script> -->
+    <script src="ds.js"></script>
+    <link href="index.css" rel="stylesheet">
+    
+    
  </head>
 
   <body>
@@ -25,56 +29,31 @@
           </div>
       </div>
   </nav>
-<div class="container" style="padding: 1rem;">
+<div class="container padding-one">
 </div>
 
 <main class="container">
     
-  <div class="p-4 p-md-5 rounded" style="background-color: rgba(108, 165, 108, 0.966);">
+  <div class="p-4 p-md-5 rounded banner-style">
     <!-- <div class="col-lg-6" style="background-color: inherit"> -->
-      <h1 class="display-4 fst-italic" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Data Structures</h1>
+      <h1 class="display-4 fst-italic topic-title">Data Structures</h1>
       <p><pre>LinkedList, HashTable, Tree, Graph</pre></p>
     <!-- </div> -->
   </div>
 
 </div>
 
-<!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-  <div class="p-4 mb-3 bg-body-tertiary rounded">
-    <h4 class="fst-italic" id="insertiondiv">LinkedList</h4>
-    <p class="mb-0">A linear data structure that includes a series of connected nodes.</p>
-  </div>
-
-  <div class="p-4 mb-3 bg-body-tertiary rounded">
-    <h4 class="fst-italic" id="quickdiv">HashTable</h4>
-    <p class="mb-0">A data structure that implements a dictionary (abstract data type that maps keys to values).</p>
-  </div>
-  </div>
-
-<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-  <div class="p-4 mb-3 bg-body-tertiary rounded">
-    <h4 class="fst-italic" id="mergediv">Tree</h4>
-    <p class="mb-0">An abstract data type that represents a hierarchical tree structure with a set of connected nodes</p>
-  </div>
-
-  <div class="p-4 mb-3 bg-body-tertiary rounded">
-    <h4 class="fst-italic" id="binarydiv">Graph</h4>
-    <p class="mb-0">A graph is a non-linear kind of data structure made up of vertices and edges.</p>
-  </div>
-</div> -->
-
-
-
 <!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3"> -->
 
   <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
     <div class="p-4 mb-3 bg-body-tertiary rounded">
       <h4 class="fst-italic border-bottom" id="insertiondiv"><pre>LinkedList</pre></h4>
-      <p id="linked-list-summary" class="mb-0" style="padding-bottom: 2rem; font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 1.2em">"A linear data structure that includes a series of connected nodes.*" -programiz.com</p>
+      <p id="txt1"></p>
+      <!-- <p id="linked-list-summary" class="mb-0" style="padding-bottom: 2rem; font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 1.2em">"A linear data structure that includes a series of connected nodes.*" -programiz.com</p> -->
     <!--setting up the picture -->
-      <div>
-        <!-- <div id="images5"></div> -->
-        <img src="./images/linkedlist.png" alt="" width="500" height="150">
+      <div id="linkedList" width="500" height="150">
+       
+        <!-- <img src="./images/linkedlist.png" alt="" width="500" height="150"> -->
     </div>
 
     <!-- </div> -->
@@ -83,10 +62,12 @@
   <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
       <div class="p-4 mb-3 bg-body-tertiary rounded">
         <h4 class="fst-italic border-bottom" id="quickdiv"><pre>HashTable</pre></h4>
-        <p class="mb-0" style="padding-bottom: 2rem; font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 1.2em">A data structure that implements a dictionary (abstract data type that maps keys to values). <sup>1</sup></p>
+        <p id="txt2"></p>
+        <div id="hashTable"></div>
+        <!-- <p class="mb-0" style="padding-bottom: 2rem; font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 1.2em">A data structure that implements a dictionary (abstract data type that maps keys to values). <sup>1</sup></p>
           <div>
             <img src="./images/hashtable.png" alt="" >
-          </div>
+          </div> -->
       <!-- </div> -->
     </div>
   </div>
@@ -98,31 +79,35 @@
   <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
   <div class="p-4 mb-3 bg-body-tertiary rounded">
     <h4 class="fst-italic border-bottom" id="mergediv"><pre>Tree</pre></h4>
-    <p class="mb-0" style="padding-bottom: 2rem; font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 1.2em">An abstract data type that represents a hierarchical tree structure with a set of connected nodes. <sup>2</sup></p>
+    <p id="txt3"></p>
+    <div id="Tree" width="300"></div>
+    <!-- <p class="mb-0" style="padding-bottom: 2rem; font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 1.2em">An abstract data type that represents a hierarchical tree structure with a set of connected nodes. <sup>2</sup></p>
     <div>
       <img src="./images/tree.png" alt="" width="300">
-    </div>
+    </div> -->
   </div>
   </div>
 
   <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
   <div class="p-4 mb-3 bg-body-tertiary rounded">
     <h4 class="fst-italic border-bottom" id="binarydiv"><pre>Graph</pre></h4>
-    <p class="mb-0" style="padding-bottom: 2rem; font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 1.2em">A graph is a non-linear kind of data structure made up of vertices and edges. -simplilearn.com</p>
+    <p id="txt4"></p>
+    <div id="graph" width="450" height="220"></div>
+    <!-- <p class="mb-0" style="padding-bottom: 2rem; font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 1.2em">A graph is a non-linear kind of data structure made up of vertices and edges. -simplilearn.com</p>
     <div>
       <img src="./images/graph.png" alt="" width="450" height="220">
-    </div>
+    </div> -->
   </div>
   </div>
 
 <!-- </div> -->
 
 <div class="col">
-  <button id="toggleCardButton3" type="button" class="btn btn-primary mb-2" style="font-size: 20px; background-color: #4CAF50; padding: 10px 32px;">Take Quiz</button>
+  <button id="toggleCardButton3" type="button" class="btn btn-primary mb-2 quiz-button">Take Quiz</button>
       <div id="card3" class="card collapse show shadow-sm">
         <div class="card-body">
             <!-- quiz -->
-            <h3 style="padding: 2rem;"><pre>Data Structures Quiz</pre></h3>
+            <h3 class="padding-two"><pre>Data Structures Quiz</pre></h3>
             <div id="quizdiv"></div>
             <button id="submit">submit</button>
             <div id="score"></div> 
@@ -142,7 +127,7 @@
           
           <p>Sources:</p>
           <p><sup>1</sup> <small>Mehlhorn, Kurt; Sanders, Peter (2008), "4 Hash Tables and Associative Arrays", Algorithms and Data Structures: The Basic Toolbox (PDF), Springer, pp. 81–98</small></p>
-          <p class="border-bottom" style="padding-bottom: 2rem;"><sup>2</sup><small> Subero, Armstrong (2020). "3. Tree Data Structure". Codeless Data Structures and Algorithms. Berkeley, CA: Apress. doi:10.1007/978-1-4842-5725-8. ISBN 978-1-4842-5724-1.</small></p>
+          <p class="border-bottom padding-bottom-two"><sup>2</sup><small> Subero, Armstrong (2020). "3. Tree Data Structure". Codeless Data Structures and Algorithms. Berkeley, CA: Apress. doi:10.1007/978-1-4842-5725-8. ISBN 978-1-4842-5724-1.</small></p>
           <p>By &copy; Chen Sang and Jaqueline Lima Cerqueira for Com S 319, Fall 2023.</p>
         </div>
       </footer>

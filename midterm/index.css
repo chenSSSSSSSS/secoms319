@@ -4,3 +4,92 @@
     }
   }
   
+#interview-navbar {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.data-struct-main {
+  background-color: rgba(27, 164, 27, 0.966); 
+  border-radius: 30px;
+}
+
+.sorting-main {
+  background-color: rgba(82, 186, 221, 0.563); 
+  border-radius: 30px;
+}
+
+.data-struct-head-anchor {
+  text-decoration: none; 
+  color: white;
+}
+
+.color-white{
+  color: white;
+}
+
+.banner-style{
+  background-color: rgba(108, 165, 108, 0.966);
+}
+
+.topic-title{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.concept-desc {
+  padding-bottom: 2rem; 
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-size: 1.2em;
+}
+
+.quiz-button {
+  font-size: 20px; 
+  background-color: #4CAF50; 
+  padding: 10px 32px;
+}
+
+.padding-one {
+  padding: 1rem;
+}
+
+.padding-two {
+  padding: 2rem;
+}
+
+.padding-bottom-two {
+  padding-bottom: 2rem;
+}
+
+.behavioral-title {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#class-info {
+  text-align: center; color:green; padding-top: 6rem;
+}
+
+#prof-info {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  text-align: center;
+}
+
+#date-info {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  text-align: center;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.align-text-center {
+  text-align: center;
+}
+
+.email-info {
+  text-align: center; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-style {
+  padding: 2rem 8rem;
+}
